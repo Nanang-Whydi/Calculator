@@ -65,7 +65,7 @@ class Calculator {
     this.subRes.style.visibility = 'visible';
 
      if (this.lastOperator === 'plus' && this.operator === 'equal') {
-      this.result.value = "Selamat Ulang Tahun 🥳🥳";
+      this.result.value = "Klik Lanjut 👇";
       this.subRes.style.visibility = 'hidden';
       this.calculations = [];
       this.newNumber = true;
@@ -74,7 +74,7 @@ class Calculator {
       const linkContainer = document.getElementById('birthdayLinkContainer');
       const birthdayLink = document.createElement('a');
       birthdayLink.href = 'https://nanang-whydi.github.io/Celebrate/';
-      birthdayLink.textContent = 'Klik di sini !';
+      birthdayLink.textContent = 'Lanjut 👉';
       birthdayLink.target = '_blank';
       linkContainer.appendChild(birthdayLink);
     }
